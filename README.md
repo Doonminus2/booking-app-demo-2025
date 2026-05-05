@@ -1,5 +1,43 @@
 # booking-app-demo-2025
 
+## Features
+
+This is a comprehensive hotel booking management system with separate frontend and backend applications.
+
+### 🏨 Core Features
+
+- **Public Booking System**: Customers can book hotel rooms through an intuitive web interface
+- **Room Management**: Administrators can add, edit, and manage hotel room inventory
+- **Booking Administration**: Complete CRUD operations for managing reservations
+- **User Authentication**: Secure JWT-based authentication for admin access
+- **Reports & Analytics**: Generate and export booking reports in CSV/JSON formats
+- **Responsive Design**: Modern, mobile-friendly interface built with React and Tailwind CSS
+
+### 🔧 Technical Features
+
+- **Database**: PostgreSQL with Prisma ORM (migrated from SQLite)
+- **Backend**: Node.js/Express REST API with authentication and validation
+- **Frontend**: React application with Vite build system
+- **Styling**: Tailwind CSS for responsive design
+- **Testing**: Newman API testing and Robot Framework UI testing
+- **CI/CD**: GitHub Actions with self-hosted runners
+- **Deployment**: Multi-environment support (QA, Staging, Production)
+
+### 📊 Admin Dashboard
+
+- **Booking Management**: View, create, edit, and cancel bookings
+- **Room Inventory**: Manage room types, capacity, and availability
+- **Reports**: Generate detailed booking reports with export functionality
+- **User Management**: Admin authentication and role-based access control
+
+### 🌐 API Endpoints
+
+- `POST /api/login` - User authentication
+- `GET/POST/PUT/DELETE /api/bookings` - Booking CRUD operations
+- `GET/POST/PUT/DELETE /api/rooms` - Room management (admin only)
+- `GET /api/reports` - View booking reports
+- `GET /api/reports/export` - Export reports (CSV/JSON)
+
 ## Backend: PostgreSQL + Prisma
 
 The backend has been migrated from SQLite to PostgreSQL using Prisma ORM.
