@@ -90,3 +90,6 @@ async function initDatabase() {
 initDatabase();
 
 module.exports = db;
+
+
+
